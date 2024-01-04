@@ -17,7 +17,7 @@ connectDB();
 
 setInterval(() => {
   update()
-}, 60000*10);
+}, 10*1000);
 
 // Init Middleware
 app.use(express.json());
